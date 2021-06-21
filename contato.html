@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Beth+Ellen&family=Indie+Flower&family=Lobster&family=Open+Sans:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav id="menu-h">
+            <ul class="center">
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+                <li>
+                    <a href="historia.html">História Lauryn Hill</a>
+                </li>
+                <li>
+                    <a href="album.html">The Miseducation of Lauryn Hill</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="flex-container" style="color: black; font-family: 'Anton', sans-serif;"> Para sugestões, críticas e mandar receitas brigadeiro rs, só mandar sua mensagem abaixo:
+        </h1>
+        <div class="container mb-50">
+            <div>
+                <!-- <br> -->
+                <div></div>
+    
+                <form style="font-family:'Open Sans', sans-serif;">
+                    <label for="nome">Nome:</label> <br>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome"></div>
+                    <br>
+                    <label for="email">E-mail: </label> <br>
+                    <input type="email" id="email" onkeyup="validaEmail()">
+                    <div id="txtEmail"></div>
+                    <br>
+                    <label for="assunto">Assunto: </label> <br>
+                    <textarea name="assunto" id="assunto" cols="60" rows="10" onkeyup="validaAssunto()"></textarea>
+                    <div id="txtAssunto"></div>
+                    <br>
+                    <button onclick="enviar()">Enviar</button>
+                </form>
+            </div>
+    
+            <div style="font-family:'Open Sans', sans-serif;" class="ml-50">
+                <br>
+                <br>
+                <h2>Endereço:</h2>
+    
+                <p>Av. Paulista, 1120 </p>
+                <p>São Paulo - SP</p>
+                <br>
+                <br>
+    
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1201424388446!2d-46.654857885543!3d-23.564128167578374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7df233ba1%3A0xa83edc8863e93b5c!2sAv.%20Paulista%2C%201120%20-%20Jardins%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-200!5e0!3m2!1spt-BR!2sbr!4v1623945264329!5m2!1spt-BR!2sbr"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()"
+                    onmouseout="mapaNormal()" id="mapa"></iframe>
+            </div>
+    
+        </div>
+        <br>
+        <br>
+        
+        
+        <!-- <hr> -->
+        <footer class="footer-color">
+            <div class="flex-container">
+                <a class="marge" href="https://www.instagram.com/nat_sabino" target="blank">
+                    <img class="tm-social" src="assets/img/instagram.png" alt="Logo do instagram">
+                </a>
+    
+                <a class="marge" href="https://www.linkedin.com/in/nat%C3%A1lia-sabino/" target="blank">
+                    <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do linkedin">
+                </a>
+    
+                <a class="marge" href="https://github.com/sabinonatalia" target="blank">
+                    <img class="tm-social" src="assets/img/github.png" alt="Logo do github">
+                </a>
+    
+            </div>
+            <p class="center">
+                Todos os direitos reservados: Natália Sabino &copy
+            </p>
+    
+        </footer>
+    
+        <script src="assets/js/script.js"></script>
+    </body>
+    
+    </html>
