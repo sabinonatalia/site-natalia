@@ -1,5 +1,5 @@
 # site-natalia
 
-<p> Meu primeiro site feito em HTML, CSS e Javascript puro
+<p> Meu primeiro site feito em HTML, CSS e Javascript puro.
 <br>
-<p> 
+<p> Exercício proposto durante o boomtcamp Generation Brasil
